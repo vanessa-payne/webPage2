@@ -1,0 +1,76 @@
+body {
+    background-color: lightYellow;
+    font-family: sans-serif;
+}
+
+#nav {
+   background-color: orange;
+   padding: 10px;
+   border-radius:100%;
+  
+   
+   
+}
+nav ul{
+    background-color: orange;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    letter-spacing: 1px;
+    
+   
+}
+nav a{
+
+    width: 60px;
+    padding: 0px;
+   
+}
+.nav-left{
+    float: center;
+    width: 50%;
+   
+   
+}
+.nav-left ul li{
+    float:left; 
+    padding-left: 10px;
+    margin-left: 5px;
+    
+}
+.nav-right ul li{
+    float:right ;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+
+.container{
+    width:100%;
+}
+
+
+.page {
+   width: 25%;
+    float: left;
+    margin: 20px; 
+    padding: 30px;
+
+    border: 1px solid orange; 
+    background-color: white; 
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px 80px;
+    border: none;
+    border: 10px;
+    
+}
+
